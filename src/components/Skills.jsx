@@ -7,7 +7,7 @@ const skills = [
   ".NET", 
   "React", 
   "Android Studio", 
-  "SQL", 
+  "SQL",
   "MS SQL Server", 
   "NoSQL",
   "HTML", 

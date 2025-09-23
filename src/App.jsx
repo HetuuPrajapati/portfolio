@@ -15,7 +15,11 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({
+      duration: 1000,
+      once: false,   // animations repeat every scroll
+      mirror: true,  // also animate when scrolling back up
+    });
   }, []);
 
   return (
