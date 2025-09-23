@@ -4,7 +4,7 @@ const Hero = () => (
   <section id="home" className="flex flex-col items-center justify-center text-center min-h-screen px-6">
     <h1 data-aos="fade-up" className="text-5xl font-bold mb-4">Hetvi Prajapati</h1>
     <p data-aos="fade-up" data-aos-delay="200" className="text-xl text-gray-700 dark:text-gray-300">
-      Full-Stack Engineer | React | Python | Azure
+      Full-Stack Engineer | Java | React | Python | Azure | SQL 
     </p>
     <a
       href="#projects"

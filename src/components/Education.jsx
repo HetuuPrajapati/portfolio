@@ -7,7 +7,7 @@ const Education = () => (
       <h3 className="text-xl font-semibold text-purple-700 dark:text-purple-400">Bachelor of Computer Science</h3>
       <p className="text-gray-600 dark:text-gray-300">Dalhousie University (2021 – 2025)</p>
       <p className="mt-2 text-gray-700 dark:text-gray-200">
-        Relevant Coursework: Operating Systems, Database Management, Systems Programming, Cloud Computing, IT Service Management, Software Engineering
+        Relevant Coursework: Operating Systems, Algorithms, Database Management, Systems Programming, Cloud Computing, IT Service Management, Software Engineering
       </p>
     </div>
   </section>

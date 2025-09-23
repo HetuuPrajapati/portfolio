@@ -2,16 +2,27 @@ import React from "react";
 
 const jobs = [
   {
-    role: "Software Developer Intern",
-    company: "ABC Tech",
-    date: "May 2024 – Aug 2024",
-    details: ["Built web applications with React and Node.js", "Improved system performance by 20%", "Collaborated in Agile team"],
+    role: "Co-op Software Developer",
+    company: "Greenovate",
+    date: "May 2023 – August 2023",
+    details: [
+      "Developed and maintained a full-stack React-based website highlighting the company’s carbon-negative initiatives",
+      "Designed and implemented backend systems and APIs to manage data securely and efficiently",
+      "Collaborated with research teams to translate requirements into UI mockups using Figma",
+      "Improved responsiveness and UX, increasing page engagement on key sections",
+      "Contributed to project planning and agile development in a small, fast-moving team",
+    ],
   },
   {
-    role: "IT Support",
-    company: "Dalhousie University",
-    date: "Sep 2023 – Dec 2023",
-    details: ["Managed student IT requests", "Resolved 95% tickets within SLA"],
+    role: "Full-Stack Developer",
+    company: "MapleAI",
+    date: "August 2025 – Current",
+    details: [
+      "Developed, debugged, and deployed full-stack applications using Python and React",
+      "Built and maintained frontend components for web pages, enhancing user experience and responsiveness",
+      "Leveraged AWS cloud services for hosting, deployment, and scalability",
+      "Participated in cross-functional agile teams, contributing to design, implementation, and continuous improvement of projects",
+    ],
   },
 ];
 

@@ -2,7 +2,6 @@ import React from "react";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const navLinks = [
-    { id: "home", text: "Home" },
     { id: "about", text: "About" },
     { id: "skills", text: "Skills" },
     { id: "experience", text: "Experience" },
@@ -14,7 +13,13 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <nav className="fixed w-full top-0 bg-white dark:bg-gray-900 shadow z-50 transition">
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
-        <h1 className="text-2xl font-bold text-purple-700 dark:text-purple-400">Hetvi</h1>
+        {/* Make the name a clickable link to About section */}
+        <a
+          href="#home"
+          className="text-2xl font-bold text-purple-700 dark:text-purple-400 hover:text-purple-600 dark:hover:text-purple-300 transition"
+        >
+          Hetvi
+        </a>
         <ul className="hidden md:flex space-x-6">
           {navLinks.map((link) => (
             <li key={link.id}>

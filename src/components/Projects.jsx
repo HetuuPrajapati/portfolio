@@ -2,14 +2,19 @@ import React from "react";
 
 const projects = [
   {
-    name: "Portfolio Website",
-    tech: "React, Tailwind CSS, AOS",
-    desc: "A personal portfolio website showcasing projects, skills, and experience with dark mode and scroll animations.",
+    name: "Quick Cash App",
+    tech: "Java, Android Studio, Google Maps API, PayPal API",
+    desc: "Developed an Android app connecting users for small paid tasks, implementing secure login, personalized dashboards, job posting/search functionalities, and payment processing. Integrated Google Maps for location-based job searches and PayPal for secure transactions.",
   },
   {
-    name: "Task Manager App",
-    tech: "Node.js, MongoDB, Express",
-    desc: "A full-stack task management app with user authentication, CRUD operations, and responsive UI.",
+    name: "Travel Advisory Platform",
+    tech: "React, JavaScript, Google Maps API, REST APIs, Material-UI",
+    desc: "Built a responsive map-based platform to visualize and explore global locations with real-time weather overlays. Engineered custom search, marker filtering, and external data fetching using REST APIs for dynamic user interactions.",
+  },
+  {
+    name: "Event Management Data System",
+    tech: "SQL, Python, Azure Data Factory, React",
+    desc: "Designed and deployed a secure event management platform with JWT authentication for user login and access control. Created data pipelines using Azure Data Factory and optimized database performance with triggers, indexes, joins, and subqueries.",
   },
 ];
 

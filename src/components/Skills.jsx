@@ -1,6 +1,31 @@
 import React from "react";
 
-const skills = ["React", "Node.js", "Python", "Tailwind CSS", "MongoDB", "SQL", "Git", "Docker"];
+const skills = [
+  "Java", 
+  "Python", 
+  "C#", 
+  ".NET", 
+  "React", 
+  "Android Studio", 
+  "SQL", 
+  "MS SQL Server", 
+  "NoSQL",
+  "HTML", 
+  "CSS", 
+  "JavaScript",
+  "Oracle", 
+  "Node.js", 
+  "Tailwind CSS", 
+  "Git", 
+  "Docker", 
+  "Kubernetes", 
+  "Azure", 
+  "AWS", 
+  "Flask", 
+  "ASP.NET Core", 
+  "RESTful APIs", 
+  "Postman"
+];
 
 const Skills = () => (
   <section id="skills" className="py-20 px-6 bg-purple-50 dark:bg-gray-900">
